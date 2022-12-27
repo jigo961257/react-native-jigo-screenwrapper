@@ -1,5 +1,5 @@
 {
-  "name": "react-native-jigo-screenwrapper",
+  "name": "@react-native-jigo-screenwrapper",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index",
@@ -42,7 +42,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jigo961257/react-native-jigo-screenwrapper.git"
+    "url": "https://github.com/jigo961257/react-native-jigo-screenwrapper.git"
   },
   "author": "jigo961257 <jigo961257@gmail.com> (https://github.com/jigo961257)",
   "license": "MIT",
