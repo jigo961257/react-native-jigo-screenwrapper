@@ -40,7 +40,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/jigo961257/react-native-jigo-screenwrapper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jigo961257/react-native-jigo-screenwrapper.git"
+  },
   "author": "jigo961257 <jigo961257@gmail.com> (https://github.com/jigo961257)",
   "license": "MIT",
   "bugs": {
@@ -155,5 +158,8 @@
         }
       ]
     ]
+  },
+  "directories": {
+    "example": "example"
   }
 }

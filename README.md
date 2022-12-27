@@ -11,11 +11,20 @@ npm install react-native-jigo-screenwrapper
 ## Usage
 
 ```js
-import { multiply } from 'react-native-jigo-screenwrapper';
+import * as React from 'react';
 
-// ...
+import { Text } from 'react-native';
+import { JigoScreenWrapper } from 'react-native-jigo-screenwrapper';
 
-const result = await multiply(3, 7);
+export default function App() {
+
+  return (
+    <JigoScreenWrapper>
+      <Text>here you can put component as you need</Text>
+    </JigoScreenWrapper>
+  );
+}
+
 ```
 
 ## Contributing
